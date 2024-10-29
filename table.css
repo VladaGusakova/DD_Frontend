@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(#45374d,#31203C,#180d1f);
+    height: 100vh;
+}
+
+.header{
+    background-color: #e9dfcd;
+    font-size: 20px;
+    font-family:'Stolzl Light';
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #C4BEA3;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #180d1f;
+}
+
+caption{
+    font-family:'Stolzl Light';
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #e9dfcd;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	border-collapse: separate;
+    font-family:'Stolzl Light';
+}
+
+.table th {
+	text-align: left;
+	padding: 15px;
+	background: #b0a48e;
+	font-size: 18px;
+}
+
+.table td {
+	text-align: left;
+	padding: 15px;
+	font-size: 17px;
+	vertical-align: top;
+}
+
+.table tbody tr:nth-child(even) {
+	background: #e9dfcd;
+}
+
+.table tbody tr:nth-child(odd) {
+	background: #dad4ba;
+}
+
+.table tr th:first-child {
+	border-radius: 20px 0 0 0;
+}
+
+.table tr th:last-child {
+	border-radius: 0 20px 0 0;
+}
+
+.table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 20px;
+}
+
+.table tbody tr:last-child td:last-child {
+	border-radius: 0 0 20px 0;
+}

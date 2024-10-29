@@ -1,6 +1,5 @@
 body{
     background-image: linear-gradient(#45374d,#31203C,#180d1f);
-    
 }
 
 .header{
@@ -58,6 +57,7 @@ body{
     background-color: #d9d2b8;
     border-radius: 6px;
     padding: 10px;
+    position: relative;
 }
 
 .main-image{
@@ -70,16 +70,16 @@ body{
 
 .sticker-one{
     position: absolute;
-    left: 40px;
+    left: 20px;
     width: 130px;
-    bottom: 453px;
+    bottom: 20px;
 }
 
 .sticker-two{
     position: absolute;
-    left: 60px;
+    left: 40px;
     width: 85px;
-    bottom: 217px;
+    bottom: 20px;
 }
 
 .bottom{
