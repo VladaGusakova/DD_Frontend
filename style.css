@@ -1,6 +1,7 @@
 body {
-    position: relative;
-    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-size: 15px;
 }
 
 .left {
@@ -42,3 +43,43 @@ body {
     margin-bottom: 40px;
 }
 
+/* ///////////////////////////////////////////// */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 15px;
+}
+
+.a-info{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 1px;
+    width: 400px;
+}
+
+.a-image{
+    width: 600px;
+
+}
+
+.film{
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.aim{
+    width: 600px;
+}
+
+table{
+    margin: 30px;
+}
+
+@media (width < 700px) {
+    .aim{
+        width: 400px;
+    }
+}
