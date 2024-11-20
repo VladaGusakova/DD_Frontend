@@ -43,8 +43,6 @@ body {
     margin-bottom: 40px;
 }
 
-/* ///////////////////////////////////////////// */
-
 .row{
     display: flex;
     flex-direction: row;
